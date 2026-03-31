@@ -1,0 +1,68 @@
+.sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15%;
+  height: 100%;
+  padding-top: 50px;
+  background: #fff;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.sidebar .account {
+  gap: 25px;
+  padding-left: 30px;
+}
+
+.sidebar img {
+  width: 100px;
+  height: 100px;
+}
+
+.sidebar .menu {
+  margin-block: 35px;
+  border-bottom: 1px solid rgba(43, 43, 43, 0.25);
+}
+
+.sidebar .menu .item {
+  height: 70px;
+  border-top: 1px solid rgba(43, 43, 43, 0.25);
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.sidebar .links {
+  padding-left: 30px;
+  gap: 15px;
+}
+
+.sidebar .edit {
+  color: #2b2b2b;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.sidebar .sign-out {
+  color: #bc3131;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sidebar .role {
+  color: #2b2b2b;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}

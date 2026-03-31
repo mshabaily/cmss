@@ -1,0 +1,22 @@
+{
+  "text": {
+    "label": "Text",
+    "file": "text.php"
+  },
+  "textarea": {
+    "label": "Textarea",
+    "file": "textbox.php"
+  },
+  "image": {
+    "label": "Image",
+    "file": "image.php"
+  },
+  "link": {
+    "label": "Link",
+    "file": "link.php"
+  },
+  "loop": {
+    "label": "Loop",
+    "file": "loop.php"
+  }
+}
