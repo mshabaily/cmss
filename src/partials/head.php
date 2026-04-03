@@ -21,20 +21,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hugerte@1/skins/content/default/content.min.css">
     <script src="https://cdn.jsdelivr.net/npm/hugerte@1/hugerte.min.js"></script>
 
-    <? $js_dir = $_SERVER['DOCUMENT_ROOT'] . '/js';
+    <? $js_dir = ROOT_PATH . '/public/js';
     $js = glob($js_dir . '/*.js');
 
     foreach ($js as $file) {
         $name = basename($file);
-        echo '<script src="/js/' . $name . '"></script>' . PHP_EOL;
+        echo '<script src="/public/js/' . $name . '"></script>' . PHP_EOL;
     } ?>
 
-    <? $css_dir = $_SERVER['DOCUMENT_ROOT'] . '/css';
+    <? $css_dir = ROOT_PATH . '/public/css';
     $css = glob($css_dir . '/*.css');
 
     foreach ($css as $file) {
         $name = basename($file);
-        echo '<link rel="stylesheet" href="/css/' . $name . '">' . PHP_EOL;
+        echo '<link rel="stylesheet" href="/public/css/' . $name . '">' . PHP_EOL;
     } ?>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,6 +46,11 @@
             <?= Settings::getInstance()->get_site_title(); ?>
         </title>
     <? } ?>
+
+    <? if (!file_exists(ROOT_PATH . '/.env')) {
+        include ROOT_PATH . '/src/endpoints/setup.php';
+        exit;
+    } ?>
 
 
     <? if (!cmss_is_user_logged_in() && is_dashboard() && !is_password_reset() && !is_setup()) {
