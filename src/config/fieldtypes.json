@@ -11,10 +11,6 @@
     "label": "Image",
     "file": "image.php"
   },
-  "link": {
-    "label": "Link",
-    "file": "link.php"
-  },
   "loop": {
     "label": "Loop",
     "file": "loop.php"

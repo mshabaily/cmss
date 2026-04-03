@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
         }).fail(function (jqXHR) {
             console.error('Request failed');
             console.error('Response Text:', jqXHR.responseText);
-            $('.form').prepend("<p class='error'>Invalid details, try again</p>");
+            $('.form:not(:has(.error))').prepend("<p class='error'>Invalid details, try again</p>");
         }).done(function () {
             location.reload();
         });

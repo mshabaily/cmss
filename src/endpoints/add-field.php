@@ -9,9 +9,9 @@
             <select name="fieldtype">
                 <? foreach (__get_field_types() as $fieldtype) { ?>
                     <option value="<?= $fieldtype['file']; ?>">
-                            <?= $fieldtype['label']; ?>
+                        <?= $fieldtype['label']; ?>
                     </option>
-                    <? } ?>
+                <? } ?>
             </select>
         </div>
 

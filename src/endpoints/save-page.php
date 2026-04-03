@@ -35,9 +35,6 @@ $template_id = (int) $_POST['template_id'] ?? 0;
 $author_id = $_SESSION['user_id'];
 
 $url = url_format($_POST['url'] ? $_POST['url'] : $title);
-//$url = url_unique($url);
-
-$description = 'description';
 
 $page = [
     'page_id' => $page_id,

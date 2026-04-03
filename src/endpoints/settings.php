@@ -22,6 +22,20 @@
                             <input name="title" class="userdata"
                                 value="<?= Settings::getInstance()->get_site_title(); ?>">
                         </div>
+                        <div class="front-page flex-column">
+                            <label for="font-page">Font Page</label>
+                            <select name="font-page" class="userdata">
+                                <? foreach (cmss_pages() as $page) { ?>
+                                    <? $current = cmss_page(Settings::getInstance()->get_front_page());
+                                    if ($current) {
+                                        $selected = $current['page_id'] == $page['page_id'];
+                                    } else {
+                                        $selected = false;
+                                    } ?>
+                                    <option value="<?= $page['page_id']; ?>" <?= $selected ? 'selected' : ''; ?>><?= $page['title']; ?></option>
+                                <? } ?>
+                            </select>
+                        </div>
                     </div>
                     <div class="field flex-column" data-fieldkey="favicon">
                         <div class="name">

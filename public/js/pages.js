@@ -234,6 +234,12 @@ jQuery(document).ready(function ($) {
         });
     })
 
+    $('.loop-item').on('click', '.delete', function() {
+        $(this).parent('.loop-item').fadeOut(function() {
+            $(this).remove();
+        })
+    })
+
     $('main').on('click', '.media-select .option .back', function () {
         $('.media-select .option').remove();
         $('.media-select .primary').fadeIn();

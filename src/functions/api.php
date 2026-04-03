@@ -164,12 +164,7 @@ function cmss_pages($count = -1)
 
 function cmss_media($id)
 {
-    try {
-        $pdo = Database::getInstance()->pdo();
-    } catch (\Throwable $e) {
-        Database::getInstance()->error("Connection failed: " . $e->getMessage());
-        return;
-    }
+    $pdo = Database::getInstance()->pdo();
 
     $id = (int) $id;
 

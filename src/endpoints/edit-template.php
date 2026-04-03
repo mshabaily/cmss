@@ -32,7 +32,7 @@ $template = cmss_template($template_id); ?>
             </button>
         </div>
     </div>
-    <div class="fields flex-column">
+    <div class="fields has-move flex-column">
         <p class="memo">Start adding fields to customise your template</p>
         <? foreach ($fields as $field) {
             include cmss_endpoint('load-field.php');

@@ -1,12 +1,13 @@
 jQuery(document).ready(function ($) {
-    var el = document.querySelector('.fields');
-
-    if (el) {
+    document.querySelectorAll('.has-move').forEach(function (el) {
         new Sortable(el, {
+            group: 'nested',
             animation: 150,
-            handle: '.move'
+            handle: '.move',
+            fallbackOnBody: true,
+            swapThreshold: 0.65
         });
-    }
+    });
 
     $('.add-field').on('click', function () {
         $.get('/cmss/add-field', function (html) {
@@ -107,6 +108,10 @@ jQuery(document).ready(function ($) {
                     select.closest('.inputs').find('.loop').fadeIn();
                 });
 
+        } else {
+            if (select.closest('.field').find('.loop')) {
+                select.closest('.field').find('.loop').remove();
+            }
         }
 
     });

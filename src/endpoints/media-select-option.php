@@ -10,9 +10,9 @@ $info = getimagesize($media['url']); ?>
     </div>
     <div class="main flex-row">
         <img src="<?= $media['url'] ?>" class="main-image">
-        <a href="cmss/delete-media" class="delete">
+        <button href="cmss/delete-media" class="delete">
             Delete
-        </a>
+        </button>
         <button class="select button">
             Select
         </button>

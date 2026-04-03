@@ -8,6 +8,7 @@ class Settings
 
     private $site_title = '';
     private $favicon = '';
+    private $front_page = '';
 
     private string $settings_file;
 
@@ -27,9 +28,19 @@ class Settings
         return $this->favicon;
     }
 
+    public function get_front_page()
+    {
+        return $this->front_page;
+    }
+
     public function set_site_title($site_title)
     {
         $this->site_title = $site_title;
+    }
+
+    public function set_front_page($front_page)
+    {
+        $this->front_page = $front_page;
     }
 
     public function set_favicon($favicon)
@@ -37,14 +48,20 @@ class Settings
         $this->favicon = $favicon;
     }
 
-    public function save($site_title, $favicon)
+    public function is_front($page) {
+        return (int) $page == (int) $this->get_front_page();
+    }
+
+    public function save($site_title, $favicon, $front_page)
     {
         $this->set_site_title($site_title);
         $this->set_favicon($favicon);
+        $this->set_front_page($front_page);
 
         $data = [
             'site_title' => $this->site_title,
             'favicon' => $this->favicon,
+            'front_page' => $this->front_page,
         ];
 
         $dir = dirname($this->settings_file);
@@ -86,5 +103,6 @@ class Settings
 
         $this->site_title = $data['site_title'];
         $this->favicon = $data['favicon'];
+        $this->front_page = $data['front_page'];
     }
 }

@@ -1,4 +1,4 @@
-<div class="image-field flex-column" data-selected-media="-1">
+<div class="image-field flex-column" data-selected-media="<?= $field['value'] ?? -1; ?>">
 
     <? if ($field['value']) {
         $media = cmss_media($field['value']); ?>

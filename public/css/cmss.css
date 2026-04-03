@@ -556,3 +556,7 @@ main.settings {
 .user-form.login .submit {
   align-self: center;
 }
+
+.settings select {
+  margin-top: 15px;
+}

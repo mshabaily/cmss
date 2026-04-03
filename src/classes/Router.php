@@ -73,11 +73,19 @@ class Router
         $routes[] = ['GET', "/cmss", "/endpoints/dashboard.php"];
         $routes[] = ['POST', "/cmss", "/endpoints/dashboard.php"];
 
+        $front_page = Settings::getInstance()->get_front_page();
+
         foreach (cmss_pages() as $page) {
             $template = cmss_template($page['template_id']);
             $handler = "/../templates/" . url_format($template['title']) . ".php";
-            $routes[] = ['GET', "/" . $page['url'], $handler];
-            $routes[] = ['POST', "/" . $page['url'], $handler];
+            
+            if ($page['page_id'] == $front_page) {
+                $routes[] = ['GET', "/", $handler];
+                $routes[] = ['POST', "/", $handler];
+            } else {
+                $routes[] = ['GET', "/" . $page['url'], $handler];
+                $routes[] = ['POST', "/" . $page['url'], $handler];
+            }
         }
 
         return $routes;

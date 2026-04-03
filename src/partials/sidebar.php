@@ -59,10 +59,10 @@
         </ul>
 
         <div class="links flex-column">
-            <a href="/support" class="support">
-                Support
+            <a href="https://github.com/mshabaily/cmss/wiki/User-Guide" class="support" target="_blank">
+                User Guide
             </a>
-            <a href="/documentation" class="documentation">
+            <a href="https://github.com/mshabaily/cmss/wiki/Documentation" class="documentation" target="_blank">
                 Documentation
             </a>
         </div>

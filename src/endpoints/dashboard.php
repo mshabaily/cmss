@@ -1,5 +1,7 @@
 <? cmss_header(); ?>
 
+<? use CMSS\Settings; ?>
+
 <main class="dashboard">
     <? cmss_sidebar(); ?>
     <content class="flex-column">
@@ -18,7 +20,12 @@
                                 <?= $page['title']; ?>
                             </div>
                             <div class="end flex-row">
-                                <a class="edit" href="<?= site_url() . '/' . $page['url']; ?>" target="_blank">
+                                <? if (Settings::getInstance()->is_front($page['page_id'])) { 
+                                    $url = '';
+                                } else {
+                                    $url = $page['url'];
+                                } ?>
+                                <a class="edit" href="<?= site_url() . '/' . $url; ?>" target="_blank">
                                     View
                                 </a>
                                 <a class="edit" href="/cmss/edit-page?id=<?= $page['page_id']; ?>">
@@ -53,13 +60,13 @@
                                     <a class="edit" href="/cmss/account?id=<?= $page['user_id']; ?>">
                                         Edit
                                     </a>
-                                
+
                                     <? if (!$page['user_id'] == cmss_current_user()['user_id']) { ?>
                                         <button class="delete-account" href="/cmss/delete-account?id=<?= $page['user_id']; ?>">
                                             Delete
                                         </button>
                                     <? } ?>
-                                
+
                                 <? } ?>
                             </div>
                         </div>

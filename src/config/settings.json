@@ -1,4 +1,5 @@
 {
-    "site_title": "CMSS Test Site",
-    "favicon": "88"
+    "site_title": "Test",
+    "favicon": "-1",
+    "front_page": "42"
 }

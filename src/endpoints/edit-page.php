@@ -1,5 +1,7 @@
 <? cmss_header(); ?>
 
+<? use CMSS\Settings; ?>
+
 <? $page_id = (int) $_GET['id'];
 
 $page = cmss_page($page_id);
@@ -16,7 +18,15 @@ $page_template = cmss_template($page['template_id']); ?>
                         <h3>New Page</h3>
                         <input class="title-input" value="<?= $page['title']; ?>">
                     </div>
+                    <? if (Settings::getInstance()->is_front($page['page_id'])) {
+                        $url = '';
+                    } else {
+                        $url = $page['url'];
+                    } ?>
                     <div class="end flex-row">
+                        <a href="<?= site_url() . '/' . $url; ?>" class="button view-page" target="_blank">
+                            View Page
+                        </a>
                         <button class="button save-page">
                             Save
                         </button>
@@ -66,13 +76,14 @@ $page_template = cmss_template($page['template_id']); ?>
                             $current_field = $field;
                             $current_template_field = $template_field;
                             ?>
-                                <div class="field flex-column" data-fieldtype="<?= $current_field['fieldtype']; ?>"
-                                    data-fieldname="<?= $current_field['fieldname']; ?>" data-fieldkey="<?= $current_field['fieldkey']; ?>">
-                                    <div class="name">
-                                        <?= $current_field['fieldname']; ?>:
-                                    </div>
-                                    <?php include __fieldtype($template_field['fieldtype']); ?>
+                            <div class="field flex-column" data-fieldtype="<?= $current_field['fieldtype']; ?>"
+                                data-fieldname="<?= $current_field['fieldname']; ?>"
+                                data-fieldkey="<?= $current_field['fieldkey']; ?>">
+                                <div class="name">
+                                    <?= $current_field['fieldname']; ?>:
                                 </div>
+                                <?php include __fieldtype($template_field['fieldtype']); ?>
+                            </div>
                         <?php } ?>
                     </div>
                 </div>

@@ -2,14 +2,8 @@
 
 use CMSS\Database;
 use CMSS\UserManager;
-use CMSS\Response;
 
-try {
-    $pdo = Database::getInstance()->pdo();
-} catch (\Throwable $e) {
-    Database::getInstance()->error("Connection failed");
-    send_response(new Response(500, "Couldn't connect the the database"));
-}
+$pdo = Database::getInstance()->pdo();
 
 $user_id = isset($_POST['id']) ? (int) $_POST['id'] : -1;
 

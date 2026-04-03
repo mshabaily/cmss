@@ -4,7 +4,7 @@ jQuery(document).ready(function ($) {
         const favicon = $('.image-field').data('selected-media');
 
         const site_title = $('.site-title input').val();
-        const site_description = $('.site-description textarea').val();
+        const front_page = $('.front-page select').val();
 
         $.ajax({
             url: '/cmss/save-settings',
@@ -12,8 +12,8 @@ jQuery(document).ready(function ($) {
             dataType: 'json',
             data: {
                 site_title: site_title,
-                site_description: site_description,
-                favicon: favicon
+                favicon: favicon,
+                front_page: front_page
             }
         }).fail(function (jqXHR) {
             console.error('Request failed');

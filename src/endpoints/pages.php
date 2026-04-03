@@ -1,5 +1,7 @@
 <? cmss_header(); ?>
 
+<? use CMSS\Settings; ?>
+
 <main class="pages">
     <? cmss_sidebar(); ?>
     <content class="flex-column">
@@ -28,7 +30,12 @@
                                     <?= $page['title']; ?>
                                 </div>
                                 <div class="end flex-row">
-                                    <a class="edit" href="<?= site_url() . '/' . $page['url']; ?>" target="_blank">
+                                    <? if (Settings::getInstance()->is_front($page['page_id'])) {
+                                        $url = '';
+                                    } else {
+                                        $url = $page['url'];
+                                    } ?>
+                                    <a class="edit" href="<?= site_url() . '/' . $url ?>" target="_blank">
                                         View
                                     </a>
                                     <a class="edit" href="/cmss/edit-page?id=<?= $page['page_id']; ?>">

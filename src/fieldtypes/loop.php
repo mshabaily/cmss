@@ -6,11 +6,15 @@
     $item_count = count($page_rows) ?: 1;
     ?>
 
-    <div class="loop-items flex-column">
+    <div class="loop-items has-move flex-column">
         <?php for ($i = 0; $i < $item_count; $i++) { ?>
             <?php $row_subfields = $page_rows[$i] ?? []; ?>
 
-            <div class="loop-item flex-column">
+            <div class="loop-item moves flex-column">
+                <div class="options">
+                    <button class="move">Move</button>
+                    <button class="delete">Delete</button>
+                </div>
                 <?php foreach ($template_subfields as $template_subfield) {
 
                     $found = false;
@@ -18,7 +22,10 @@
                     $sub_field['value'] = null;
 
                     foreach ($row_subfields as $page_subfield) {
-                        if (($template_subfield['fieldkey'] ?? null) == ($page_subfield['fieldkey'] ?? null)) {
+                        $key_match = ($template_subfield['fieldkey'] ?? null) == ($page_subfield['fieldkey'] ?? null);
+                        $type_match = ($template_subfield['fieldtype'] ?? null) == ($page_subfield['fieldtype'] ?? null);
+
+                        if ($key_match && $type_match) {
                             $sub_field = $page_subfield;
                             $found = true;
                             break;
@@ -39,7 +46,7 @@
                         <div class="name">
                             <?= $sub_field['fieldname']; ?>
                         </div>
-                        <? $field =  $sub_field; ?>
+                        <? $field = $sub_field; ?>
                         <?php include __fieldtype($sub_field['fieldtype']); ?>
                     </div>
 
