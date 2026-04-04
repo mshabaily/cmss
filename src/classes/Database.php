@@ -7,7 +7,7 @@ class Database
 
     use Singleton, HasLogger;
 
-    private static \PDO $pdo;
+    private static ?\PDO $pdo = null;
 
     protected function __construct()
     {
@@ -102,7 +102,7 @@ class Database
                 ]
             );
 
-            $schema = file_get_contents(ROOT_PATH . 'src/sql/setup.sql');
+            $schema = file_get_contents(ROOT_PATH . '/src/sql/setup.sql');
 
             if ($schema === false) {
                 return new Response(500, 'Could not read schema.sql');
@@ -127,6 +127,9 @@ class Database
 
     public function pdo(): \PDO
     {
+        if (!self::$pdo) {
+            throw new \Exception("Database not initialized");
+        }
         return self::$pdo;
     }
 }

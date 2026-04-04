@@ -369,13 +369,13 @@ textarea {
   width: 375px;
   height: 375px;
   object-fit: contain;
+  margin-top: 25px;
 }
 
 .media .media-menu .main,
 .media-select .option .main {
   height: 100%;
   padding-inline: 50px;
-  padding-top: 55px;
   gap: 12%;
 }
 
@@ -390,6 +390,11 @@ textarea {
   position: absolute;
   right: 25px;
   top: 15px;
+}
+
+.media .delete-media {
+  padding-inline: 50px;
+  padding-top: 25px;
 }
 
 .media .media-menu * {

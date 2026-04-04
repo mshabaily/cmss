@@ -9,8 +9,8 @@ class PageManager
     static private function new_page($page, $pdo): int
     {
         $stmt = $pdo->prepare("
-            INSERT INTO cmss_pages (title, fields, date_added, author_id, url, description, template_id)
-            VALUES (:title, :fields, NOW(), :author_id, :url, :description, :template_id)
+            INSERT INTO cmss_pages (title, fields, date_added, author_id, url, template_id)
+            VALUES (:title, :fields, NOW(), :author_id, :url, :template_id)
         ");
 
         $stmt->execute([
@@ -18,7 +18,6 @@ class PageManager
             ':fields' => $page['fields'],
             ':author_id' => $page['author_id'],
             ':url' => $page['url'],
-            ':description' => $page['description'],
             ':template_id' => $page['template_id']
         ]);
 
@@ -32,7 +31,6 @@ class PageManager
             SET title = :title,
             fields = :fields,
             url = :url,
-            description = :description,
             template_id = :template_id
                 WHERE page_id = :id
         ");
@@ -42,7 +40,6 @@ class PageManager
             ':fields' => $page['fields'],
             ':id' => $page['page_id'],
             ':url' => $page['url'],
-            ':description' => $page['description'],
             ':template_id' => $page['template_id']
         ]);
     }

@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `cmss_media` (
   `media_id` int NOT NULL,
-  `url` varchar(1000) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci NOT NULL,
+  `url` varchar(10000) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci NOT NULL,
   `file_size` double NOT NULL,
   `file_name` mediumtext CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci NOT NULL,
   `author_id` int NOT NULL,
@@ -48,7 +48,6 @@ CREATE TABLE `cmss_pages` (
   `template_id` int NOT NULL,
   `url` varchar(30) COLLATE utf8mb3_unicode_ci NOT NULL,
   `title` varchar(30) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `description` varchar(500) COLLATE utf8mb3_unicode_ci NOT NULL,
   `fields` json DEFAULT NULL,
   `date_added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;

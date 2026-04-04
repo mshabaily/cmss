@@ -75,20 +75,29 @@ class Router
 
         $front_page = Settings::getInstance()->get_front_page();
 
-        foreach (cmss_pages() as $page) {
-            $template = cmss_template($page['template_id']);
-            $handler = "/../templates/" . url_format($template['title']) . ".php";
-            
-            if ($page['page_id'] == $front_page) {
-                $routes[] = ['GET', "/", $handler];
-                $routes[] = ['POST', "/", $handler];
-            } else {
-                $routes[] = ['GET', "/" . $page['url'], $handler];
-                $routes[] = ['POST', "/" . $page['url'], $handler];
+        try {
+            $pages = cmss_pages();
+            if ($pages) {
+                foreach ($pages as $page) {
+                    $template = cmss_template($page['template_id']);
+                    $handler = "/../templates/" . url_format($template['title']) . ".php";
+
+                    if ($page['page_id'] == $front_page) {
+                        $routes[] = ['GET', "/", $handler];
+                        $routes[] = ['POST', "/", $handler];
+                    } else {
+                        $routes[] = ['GET', "/" . $page['url'], $handler];
+                        $routes[] = ['POST', "/" . $page['url'], $handler];
+                    }
+                }
             }
+            
+            return $routes;
+
+        } catch (\Throwable $e) {
+            return $routes;
         }
 
-        return $routes;
     }
 
     private function create_dispatcher(): Dispatcher
@@ -177,12 +186,10 @@ class Router
                 }
             } catch (\Throwable $e) {
                 $this->error("Error loading endpoint $handler: " . $e->getMessage());
-                http_response_code(500);
                 echo "Internal Server Error";
             }
         } else {
             $this->error("Handler file not found: $file");
-            http_response_code(500);
             echo "Handler file not found: $file";
         }
     }

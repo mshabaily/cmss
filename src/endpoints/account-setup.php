@@ -1,7 +1,3 @@
-<? if (file_exists(ROOT_PATH . '/.env')) {
-    __login_redirect();
-} ?>
-
 <? cmss_header(); ?>
 
 <main class="user-form database account setup">
@@ -34,12 +30,8 @@
                         <div class="role flex-column" style="display: none;">
                             <label for="role">Role</label>
                             <select name="role" class="userdata">
-                                <option selected>
-                                    Developer
-                                </option>
-                                <option>
-                                    Moderator
-                                </option>
+                                <option value="developer" selected>Developer</option>
+                                <option value="moderator">Moderator</option>
                             </select>
                         </div>
                     </div>

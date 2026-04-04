@@ -42,7 +42,6 @@ $page = [
     'template_id' => $template_id,
     'author_id' => $author_id,
     'url' => $url,
-    'description' => $description,
     'fields' => $jsonFields
 ];
 

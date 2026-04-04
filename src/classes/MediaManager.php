@@ -60,7 +60,19 @@ class MediaManager
         }
 
         $file['name'] = preg_replace('/[^A-Za-z0-9._-]/', '_', basename($file['name']));
-        $url = site_url() . '/uploads/' . $file['name'];
+        $url = site_url() . '/public/uploads/' . $file['name'];
+
+        $path = ROOT_PATH . '/public/uploads/' . $file['name'];
+        $upload_dir = dirname($path);
+        $thumb_dir = $upload_dir . '/thumbs';
+
+        if (!is_dir($upload_dir)) {
+            mkdir($upload_dir, 0755, true);
+        }
+
+        if (!is_dir($thumb_dir)) {
+            mkdir($thumb_dir, 0755, true);
+        }
 
         $metadata = [
             'file_name' => $file['name'],
@@ -74,8 +86,6 @@ class MediaManager
         if ($media_id == -1) {
             return new Response(500, "Couldn't save media to database");
         }
-
-        $path = ROOT_PATH . '/public/uploads/' . $file['name'];
 
         $success = move_uploaded_file($file['tmp_name'], $path);
 
