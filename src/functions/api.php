@@ -4,12 +4,17 @@ use CMSS\Database;
 
 function cmss_asset($path): string
 {
-    return site_url() . '/public/assets/' . $path;
+    return site_url() . '/assets/' . $path;
 }
 
 function cmss_partial($path): string
 {
     return ROOT_PATH . '/src/partials/' . $path;
+}
+
+function cmss_upload($path): string
+{
+    return ROOT_PATH . '/public/uploads/' . $path;
 }
 
 function cmss_header()

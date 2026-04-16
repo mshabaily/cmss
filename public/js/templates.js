@@ -120,10 +120,14 @@ jQuery(document).ready(function ($) {
         const $btn = $(this);
         const url = $btn.attr('href');
 
+        const csrf = $(this).data('csrf');
+
         $.ajax({
             url: url,
             method: 'POST',
-            dataType: 'json',
+            headers: {
+                'X-CSRF-Token': csrf
+            },
         }).fail(function (jqXHR) {
             console.error('Request failed');
             console.error('Response Text:', jqXHR.responseText);

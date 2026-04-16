@@ -2,6 +2,16 @@
 
 use CMSS\Response;
 use CMSS\UserManager;
+use Symfony\Component\Security\Csrf\CsrfToken;
+use Symfony\Component\Security\Csrf\CsrfTokenManager;
+
+$csrf = $_SERVER['HTTP_X_CSRF_TOKEN'] ?? '';
+
+$csrfTokenManager = new CsrfTokenManager();
+
+if (!$csrfTokenManager->isTokenValid(new CsrfToken('login_form', $csrf))) {
+    send_response(new Response(403, 'Invalid CSRF token'));
+}
 
 $email = $_POST['email'] ?? '';
 $password = $_POST['password'] ?? '';

@@ -38,7 +38,7 @@ class Database
         );
     }
 
-    public static function write_to_env($key, $value)
+    public static function write_to_env(string $key, string $value)
     {
         $env_path = ROOT_PATH . '/.env';
 
@@ -67,7 +67,7 @@ class Database
         }
     }
 
-    public static function install($host, $name, $username, $password)
+    public static function install(string $host, string $name, string $username, string $password)
     {
 
         $env_path = ROOT_PATH . '/.env';

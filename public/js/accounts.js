@@ -1,12 +1,18 @@
 jQuery(document).ready(function ($) {
     $('.login .form .submit').click(function () {
+        const csrf = $('.login').data('csrf');
+
         $.ajax({
             url: '/cmss/attempt-login',
             method: 'POST',
             dataType: 'json',
+            headers: {
+                'X-CSRF-Token': csrf
+            },
             data: {
                 email: $("input[name='email']").val(),
-                password: $("input[name='password']").val()
+                password: $("input[name='password']").val(),
+
             }
         }).fail(function (jqXHR) {
             console.error('Request failed');
@@ -20,7 +26,7 @@ jQuery(document).ready(function ($) {
     $('.sign-out').click(function () {
         $.ajax({
             url: '/cmss/sign-out',
-            method: 'GET'
+            method: 'GET',
         }).done(function () {
             window.location.href = '/cmss'
         });
@@ -35,7 +41,9 @@ jQuery(document).ready(function ($) {
             data: {
                 address: address
             }
-        })
+        }).done(function () {
+            $('.form:not(:has(.message))').prepend("<p class='message'>Reset link requested: check your inbox to continue</p>")
+        });
     })
 
     $('.change-password').click(function () {
@@ -43,15 +51,22 @@ jQuery(document).ready(function ($) {
         password = $("input[name='password']").val();
         user_id = $('.user-form').data('user-id');
 
+        const csrf = $('.user-form').data('csrf');
+
         $.ajax({
             url: '/cmss/change-password',
             method: 'POST',
             dataType: 'json',
+            headers: {
+                'X-CSRF-Token': csrf
+            },
             data: {
                 email: email,
                 password: password,
                 user_id: user_id
             }
+        }).done(function() {
+            window.location.href = '/cmss'
         })
     })
 
@@ -90,10 +105,14 @@ jQuery(document).ready(function ($) {
         const $btn = $(this);
         const url = $btn.attr('href');
 
+        const csrf = $(this).data('csrf');
+
         $.ajax({
             url: url,
             method: 'POST',
-            dataType: 'json'
+            headers: {
+                'X-CSRF-Token': csrf
+            },
         }).fail(function (jqXHR) {
             console.error('Request failed');
             console.error('Response Text:', jqXHR.responseText);

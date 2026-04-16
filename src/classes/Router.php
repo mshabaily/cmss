@@ -73,9 +73,9 @@ class Router
         $routes[] = ['GET', "/cmss", "/endpoints/dashboard.php"];
         $routes[] = ['POST', "/cmss", "/endpoints/dashboard.php"];
 
-        $front_page = Settings::getInstance()->get_front_page();
-
         try {
+            
+            $front_page = Settings::getInstance()->get_front_page();
             $pages = cmss_pages();
             if ($pages) {
                 foreach ($pages as $page) {
@@ -91,13 +91,12 @@ class Router
                     }
                 }
             }
-            
+
             return $routes;
 
         } catch (\Throwable $e) {
             return $routes;
         }
-
     }
 
     private function create_dispatcher(): Dispatcher
