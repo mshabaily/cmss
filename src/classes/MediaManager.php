@@ -60,7 +60,7 @@ class MediaManager
         }
 
         $file['name'] = preg_replace('/[^A-Za-z0-9._-]/', '_', basename($file['name']));
-        $url = site_url() . '/public/uploads/' . $file['name'];
+        $url = site_url() . '/uploads/' . $file['name'];
 
         $path = ROOT_PATH . '/public/uploads/' . $file['name'];
         $upload_dir = dirname($path);
@@ -107,7 +107,7 @@ class MediaManager
         return $response;
     }
 
-    public function delete($media)
+    public function delete($media) : Response
     {
         $pdo = Database::getInstance()->pdo();
 

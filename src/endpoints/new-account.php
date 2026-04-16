@@ -27,7 +27,7 @@
                         </div>
                         <div class="password flex-column">
                             <label for="password">Password</label>
-                            <input name="password" class="userdata">
+                            <input name="password" class="userdata" type="password">
                         </div>
                         <div class="email flex-column">
                             <label for="email">Email Address</label>

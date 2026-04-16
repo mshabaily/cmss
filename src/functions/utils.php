@@ -54,7 +54,7 @@ function is_dashboard()
 function is_password_reset() 
 {
     $uri = $_SERVER['REQUEST_URI'] ?? '';
-    return $uri == "/cmss/forgot-password" || $uri == "/cmss/reset-password";
+    return $uri == "/cmss/forgot-password" || str_starts_with($uri, "/cmss/reset-password");
 }
 
 function is_setup()

@@ -1,4 +1,4 @@
-<? if (file_exists(ROOT_PATH . '/.env')) {
+<? if (!file_exists(ROOT_PATH . '/.env')) {
     __login_redirect();
 } ?>
 

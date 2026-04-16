@@ -198,7 +198,7 @@ textarea {
 .media-items .item {
   width: 75px;
   height: 75px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .media-menu .close,
@@ -520,6 +520,13 @@ main.settings {
 
 .error {
   color: red;
+  font-size: 13px;
+  margin-bottom: 35px;
+  text-align: start;
+  align-self: start;
+}
+
+.message {
   font-size: 13px;
   margin-bottom: 35px;
   text-align: start;

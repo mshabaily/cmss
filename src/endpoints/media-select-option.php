@@ -1,3 +1,5 @@
+<? use Symfony\Component\Security\Csrf\CsrfTokenManager; ?>
+
 <? $media = cmss_media((int) $_GET['media_id']);
 
 $info = getimagesize($media['url']); ?>
@@ -10,7 +12,12 @@ $info = getimagesize($media['url']); ?>
     </div>
     <div class="main flex-row">
         <img src="<?= $media['url'] ?>" class="main-image">
-        <button href="cmss/delete-media" class="delete">
+
+        <? $csrfTokenManager = new CsrfTokenManager();
+        $token = $csrfTokenManager->getToken('')->getValue(); ?>
+
+        <button href="cmss/delete-media" class="delete"
+            data-csrf="<?= htmlspecialchars($token, ENT_QUOTES, 'UTF-8') ?>">
             Delete
         </button>
         <button class="select button">

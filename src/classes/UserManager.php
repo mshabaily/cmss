@@ -134,7 +134,7 @@ class UserManager
         }
     }
 
-    public function verify_account($id, $password)
+    public function verify_account($id, $password) : bool
     {
         $user = cmss_user($id);
         return password_verify($password, $user['password_hash']);

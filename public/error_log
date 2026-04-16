@@ -1,0 +1,427 @@
+[06-Apr-2026 19:25:58 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:25:58 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:25:58 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:25:58 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:25:58 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:25:58 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:25:58 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:25:58 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:25:58 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:25:58 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:16 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:16 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:16 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:16 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:16 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:16 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:16 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:16 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:16 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:16 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:53 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:53 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:53 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:53 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:53 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:53 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:53 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:53 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:53 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:53 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:54 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:55 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:55 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:55 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:55 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:55 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[06-Apr-2026 19:26:55 Europe/London] PHP Warning:  Undefined array key "DB_HOST" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 25
+[06-Apr-2026 19:26:55 Europe/London] PHP Warning:  Undefined array key "DB_NAME" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 26
+[06-Apr-2026 19:26:55 Europe/London] PHP Warning:  Undefined array key "DB_CHARSET" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 27
+[06-Apr-2026 19:26:55 Europe/London] PHP Warning:  Undefined array key "DB_USER" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 32
+[06-Apr-2026 19:26:55 Europe/London] PHP Warning:  Undefined array key "DB_PASS" in /home/shabaily/public_html/CMSS/src/classes/Database.php on line 33
+[07-Apr-2026 00:49:51 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[07-Apr-2026 02:00:21 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[07-Apr-2026 06:02:33 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[07-Apr-2026 16:02:09 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[07-Apr-2026 18:10:42 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[07-Apr-2026 20:00:38 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[07-Apr-2026 21:50:49 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[07-Apr-2026 22:42:26 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[07-Apr-2026 22:42:26 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[07-Apr-2026 22:42:26 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[07-Apr-2026 22:42:27 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[08-Apr-2026 11:02:06 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[08-Apr-2026 14:26:45 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[08-Apr-2026 15:21:24 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[08-Apr-2026 18:20:40 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[08-Apr-2026 18:39:19 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[08-Apr-2026 20:01:25 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[08-Apr-2026 22:21:31 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[08-Apr-2026 22:52:45 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[08-Apr-2026 23:56:59 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[09-Apr-2026 00:16:00 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[09-Apr-2026 01:41:10 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[09-Apr-2026 01:57:59 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[09-Apr-2026 02:42:11 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[09-Apr-2026 03:12:07 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[09-Apr-2026 03:59:17 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[09-Apr-2026 05:32:19 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[09-Apr-2026 05:37:28 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[09-Apr-2026 06:49:47 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[09-Apr-2026 09:18:51 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 09:45:08 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 13:23:56 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 14:09:52 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 16:35:19 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 18:00:55 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 18:49:49 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 19:19:10 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 19:19:16 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 21:10:02 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 22:10:49 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 22:17:59 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 22:18:01 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 22:18:02 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/shabaily/public_html/CMSS/vendor/composer/autoload_real.php(25): require()
+#1 /home/shabaily/public_html/CMSS/vendor/autoload.php(22): ComposerAutoloaderInit001d922da8fcd2b1c15914731741412b::getLoader()
+#2 /home/shabaily/public_html/CMSS/public/index.php(5): require('/home/shabaily/...')
+#3 {main}
+  thrown in /home/shabaily/public_html/CMSS/vendor/composer/platform_check.php on line 22
+[10-Apr-2026 23:24:24 Europe/London] PHP Fatal error:  Uncaught Error: Class "CMSS\Router" not found in /home/shabaily/public_html/CMSS/public/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/shabaily/public_html/CMSS/public/index.php on line 6
+[10-Apr-2026 23:24:37 Europe/London] PHP Fatal error:  Uncaught Error: Class "Dotenv\Dotenv" not found in /home/shabaily/public_html/CMSS/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/shabaily/public_html/CMSS/public/index.php on line 5
+[10-Apr-2026 23:24:37 Europe/London] PHP Fatal error:  Uncaught Error: Class "Dotenv\Dotenv" not found in /home/shabaily/public_html/CMSS/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/shabaily/public_html/CMSS/public/index.php on line 5
+[10-Apr-2026 23:24:38 Europe/London] PHP Fatal error:  Uncaught Error: Class "Dotenv\Dotenv" not found in /home/shabaily/public_html/CMSS/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/shabaily/public_html/CMSS/public/index.php on line 5
+[10-Apr-2026 23:26:12 Europe/London] PHP Warning:  require(/home/shabaily/public_html/CMSS/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/shabaily/public_html/CMSS/public/index.php on line 5
+[10-Apr-2026 23:26:12 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/shabaily/public_html/CMSS/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/shabaily/public_html/CMSS/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/shabaily/public_html/CMSS/public/index.php on line 5
+[10-Apr-2026 23:26:13 Europe/London] PHP Warning:  require(/home/shabaily/public_html/CMSS/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/shabaily/public_html/CMSS/public/index.php on line 5
+[10-Apr-2026 23:26:13 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/shabaily/public_html/CMSS/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/shabaily/public_html/CMSS/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/shabaily/public_html/CMSS/public/index.php on line 5
+[10-Apr-2026 23:26:23 Europe/London] PHP Warning:  require(/home/shabaily/public_html/CMSS/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/shabaily/public_html/CMSS/public/index.php on line 5
+[10-Apr-2026 23:26:23 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/shabaily/public_html/CMSS/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/shabaily/public_html/CMSS/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/shabaily/public_html/CMSS/public/index.php on line 5
+[10-Apr-2026 23:26:24 Europe/London] PHP Warning:  require(/home/shabaily/public_html/CMSS/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/shabaily/public_html/CMSS/public/index.php on line 5
+[10-Apr-2026 23:26:24 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/shabaily/public_html/CMSS/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/shabaily/public_html/CMSS/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/shabaily/public_html/CMSS/public/index.php on line 5
+[10-Apr-2026 23:26:30 Europe/London] PHP Warning:  require(/home/shabaily/public_html/CMSS/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/shabaily/public_html/CMSS/public/index.php on line 5
+[10-Apr-2026 23:26:30 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/shabaily/public_html/CMSS/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/shabaily/public_html/CMSS/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/shabaily/public_html/CMSS/public/index.php on line 5
+[10-Apr-2026 23:27:05 Europe/London] PHP Warning:  require(/home/shabaily/public_html/CMSS/public/src/functions/utils.php): Failed to open stream: No such file or directory in /home/shabaily/public_html/CMSS/public/index.php on line 27
+[10-Apr-2026 23:27:05 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/shabaily/public_html/CMSS/public/src/functions/utils.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/shabaily/public_html/CMSS/public/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/shabaily/public_html/CMSS/public/index.php on line 27

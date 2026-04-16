@@ -2,6 +2,16 @@
 
 use CMSS\UserManager;
 use CMSS\Response;
+use Symfony\Component\Security\Csrf\CsrfToken;
+use Symfony\Component\Security\Csrf\CsrfTokenManager;
+
+$csrf = $_SERVER['HTTP_X_CSRF_TOKEN'] ?? '';
+
+$csrfTokenManager = new CsrfTokenManager();
+
+if (!$csrfTokenManager->isTokenValid(new CsrfToken('change-password', $csrf))) {
+    send_response(new Response(403, 'Invalid CSRF token'));
+}
 
 $user_id = (int) $_POST['user_id'];
 $current_user = cmss_user($user_id);

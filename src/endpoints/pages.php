@@ -2,6 +2,8 @@
 
 <? use CMSS\Settings; ?>
 
+<? use Symfony\Component\Security\Csrf\CsrfTokenManager; ?>
+
 <main class="pages">
     <? cmss_sidebar(); ?>
     <content class="flex-column">
@@ -41,7 +43,12 @@
                                     <a class="edit" href="/cmss/edit-page?id=<?= $page['page_id']; ?>">
                                         Edit
                                     </a>
-                                    <button class="delete-page" href="/cmss/delete-page?id=<?= $page['page_id']; ?>">
+
+                                    <? $csrfTokenManager = new CsrfTokenManager();
+                                    $token = $csrfTokenManager->getToken('delete-page')->getValue(); ?>
+
+                                    <button class="delete-page" href="/cmss/delete-page?id=<?= $page['page_id']; ?>"
+                                        data-csrf="<?= htmlspecialchars($token, ENT_QUOTES, 'UTF-8') ?>">
                                         Delete
                                     </button>
                                 </div>

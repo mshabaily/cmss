@@ -1,6 +1,11 @@
 <? cmss_header(); ?>
 
-<main class="user-form login flex-column">
+<? use Symfony\Component\Security\Csrf\CsrfTokenManager;
+
+$csrfTokenManager = new CsrfTokenManager();
+$token = $csrfTokenManager->getToken('login_form')->getValue(); ?>
+
+<main class="user-form login flex-column" data-csrf="<?= htmlspecialchars($token, ENT_QUOTES, 'UTF-8') ?>">
     <content class="flex-column">
         <div class="card flex-column">
             <div class="title">Enter login details</div>
@@ -9,7 +14,7 @@
                 <label for="email">Username</label>
                 <input name="email">
                 <label for="password">Password</label>
-                <input name="password">
+                <input name="password" type="password">
                 <a href="/cmss/forgot-password" class="forgotten-password dim-effect">
                     Forgotten password
                 </a>

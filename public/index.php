@@ -2,16 +2,24 @@
 
 define('ROOT_PATH', dirname(__DIR__));
 
-require __DIR__ . '/../vendor/autoload.php';
+require ROOT_PATH . '/vendor/autoload.php';
 
-$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
+use Bepsvpt\SecureHeaders\SecureHeaders;
+use Symfony\Component\Security\Csrf\CsrfTokenManager;
+use CMSS\Router;
+
+$dotenv = Dotenv\Dotenv::createImmutable(ROOT_PATH);
 $dotenv->safeLoad();
+
+$secureHeaders = SecureHeaders::fromFile(ROOT_PATH . '/src/config/security-headers.php');
+$secureHeaders->send();
 
 ini_set('session.use_strict_mode', '1');
 ini_set('session.cookie_httponly', '1');
 ini_set('session.cookie_samesite', 'Strict');
+ini_set('session.use_only_cookies', '1');
 
-$secure = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off');
+$secure = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off';
 
 session_set_cookie_params([
     'lifetime' => 0,
@@ -24,9 +32,9 @@ session_set_cookie_params([
 
 session_start();
 
-require __DIR__ . '/../src/functions/utils.php';
+$csrfTokenManager = new CsrfTokenManager();
 
-require __DIR__ . '/../src/functions/api.php';
+require ROOT_PATH . '/src/functions/utils.php';
+require ROOT_PATH . '/src/functions/api.php';
 
-use CMSS\Router;
 Router::getInstance()->dispatch();

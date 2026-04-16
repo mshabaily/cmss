@@ -1,5 +1,7 @@
 <? cmss_header(); ?>
 
+<? use Symfony\Component\Security\Csrf\CsrfTokenManager; ?>
+
 <main class="accounts">
     <? cmss_sidebar(); ?>
     <content class="flex-column">
@@ -27,8 +29,11 @@
                                     Edit
                                 </a>
 
-                                <? if (!$account['user_id'] == cmss_current_user()['user_id']) { ?>
-                                    <button class="delete-account" href="/cmss/delete-account?id=<?= $account['user_id']; ?>">
+                                <? $csrfTokenManager = new CsrfTokenManager();
+                                $token = $csrfTokenManager->getToken('delete-account')->getValue(); ?>
+
+                                <? if (!($account['user_id'] == cmss_current_user()['user_id'])) { ?>
+                                    <button class="delete-account" href="/cmss/delete-account?id=<?= $account['user_id']; ?>" data-csrf="<?= htmlspecialchars($token, ENT_QUOTES, 'UTF-8') ?>">
                                         Delete
                                     </button>
                                 <? } ?>

@@ -1,6 +1,9 @@
 <? cmss_header(); ?>
 
 <? use CMSS\Settings; ?>
+<? use Symfony\Component\Security\Csrf\CsrfTokenManager; ?>
+
+<? $csrfTokenManager = new CsrfTokenManager(); ?>
 
 <main class="dashboard">
     <? cmss_sidebar(); ?>
@@ -20,7 +23,7 @@
                                 <?= $page['title']; ?>
                             </div>
                             <div class="end flex-row">
-                                <? if (Settings::getInstance()->is_front($page['page_id'])) { 
+                                <? if (Settings::getInstance()->is_front($page['page_id'])) {
                                     $url = '';
                                 } else {
                                     $url = $page['url'];
@@ -31,7 +34,11 @@
                                 <a class="edit" href="/cmss/edit-page?id=<?= $page['page_id']; ?>">
                                     Edit
                                 </a>
-                                <button class="delete-page" href="/cmss/delete-page?id=<?= $page['page_id']; ?>">
+
+                                <? $token = $csrfTokenManager->getToken('delete-page')->getValue(); ?>
+
+                                <button class="delete-page" href="/cmss/delete-page?id=<?= $page['page_id']; ?>"
+                                    data-csrf="<?= htmlspecialchars($token, ENT_QUOTES, 'UTF-8') ?>">
                                     Delete
                                 </button>
                             </div>
@@ -61,8 +68,11 @@
                                         Edit
                                     </a>
 
+                                    <? $token = $csrfTokenManager->getToken('delete-account')->getValue(); ?>
+
                                     <? if (!$page['user_id'] == cmss_current_user()['user_id']) { ?>
-                                        <button class="delete-account" href="/cmss/delete-account?id=<?= $page['user_id']; ?>">
+                                        <button class="delete-account" href="/cmss/delete-account?id=<?= $page['user_id']; ?>"
+                                            data-csrf="<?= htmlspecialchars($token, ENT_QUOTES, 'UTF-8') ?>">
                                             Delete
                                         </button>
                                     <? } ?>
@@ -78,25 +88,30 @@
                     <h3>Latest Templates</h3>
                 </div>
                 <div class="records content flex-column">
-                    <? $pages = cmss_templates(5);
-                    foreach ($pages as $page) { ?>
+                    <? $templates = cmss_templates(5);
+                    foreach ($templates as $template) { ?>
                         <div class="record flex-row">
                             <div class="record-title flex-row">
                                 Title:
-                                <?= $page['title']; ?>
+                                <?= $template['title']; ?>
                             </div>
                             <div class="end flex-row">
-                                <a class="edit" href="/cmss/edit-page?id=<?= $page['page_id']; ?>">
+                                <a class="edit" href="/cmss/edit-template?id=<?= $template['template_id']; ?>">
                                     Edit
                                 </a>
-                                <button class="delete-page" href="/cmss/delete-page?id=<?= $page['page_id']; ?>">
+
+                                <? $token = $csrfTokenManager->getToken('')->getValue(); ?>
+
+                                <button class="delete-template"
+                                    href="/cmss/delete-template?id=<?= $template['template_id']; ?>"
+                                    data-csrf="<?= htmlspecialchars($token, ENT_QUOTES, 'UTF-8') ?>">
                                     Delete
                                 </button>
                             </div>
                         </div>
                     <? } ?>
 
-                    <? if (!$pages) { ?>
+                    <? if (!$templates) { ?>
                         <p class="no-content">No templates found, create a new page to get started!</p>
                     <? } ?>
                 </div>

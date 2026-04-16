@@ -1,3 +1,10 @@
+$(window).off('beforeunload');
+window.onbeforeunload = null;
+
+window.addEventListener('beforeunload', function (e) {
+    e.stopImmediatePropagation();
+}, true);
+
 jQuery(document).ready(function ($) {
     $('.template-select').change(function () {
         $.ajax({
@@ -138,10 +145,14 @@ jQuery(document).ready(function ($) {
         const $btn = $(this);
         const url = $btn.attr('href');
 
+        const csrf = $(this).data('csrf');
+
         $.ajax({
             url: url,
             method: 'POST',
-            dataType: 'json'
+            headers: {
+                'X-CSRF-Token': csrf
+            },
         }).fail(function (jqXHR) {
             console.error('Request failed');
             console.error('Response Text:', jqXHR.responseText);
@@ -234,8 +245,8 @@ jQuery(document).ready(function ($) {
         });
     })
 
-    $('.loop-item').on('click', '.delete', function() {
-        $(this).parent('.loop-item').fadeOut(function() {
+    $('.loop-item').on('click', '.delete', function () {
+        $(this).parent('.loop-item').fadeOut(function () {
             $(this).remove();
         })
     })

@@ -14,13 +14,20 @@ class Mailer
     use Singleton;
     use HasLogger;
 
+    private $system_address;
+
     protected function __construct()
     {
         self::load_logger('mailer');
+        $host = $_SERVER['SERVER_NAME'] ?? 'localhost';
+        $this->system_address = 'system@' . $host;
     }
 
-    public function send($from, $to, $subject, $content)
+    public function send($from, $to, $subject, $content) : Response
     {
+
+        $from = $from ? $from : $this->system_address;
+
         try {
             if (!filter_var($from, FILTER_VALIDATE_EMAIL) || !filter_var($to, FILTER_VALIDATE_EMAIL)) {
                 return new Response(400, 'Invalid address');
