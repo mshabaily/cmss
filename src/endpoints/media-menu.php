@@ -19,7 +19,7 @@ $info = getimagesize($media['url']); ?>
         Delete
     </button>
     <div class="main flex-row">
-        <img src="<?= $media['url'] ?>" class="main-image">
+        <img src="/public/<?= $media['url'] ?>" class="main-image">
         <div class="info flex-column">
             <a href="<?= $media['url']; ?>" target="_blank">url:
                 <?= $media['url']; ?>
