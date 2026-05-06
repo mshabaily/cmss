@@ -387,6 +387,6 @@ function cmss_thumbnail($media)
 {
     $url = $media['url'];
     $base = rtrim(dirname($url), '/');
-    return $base . '/uploads/thumbs/' . $media['file_name'];
+    return $base . '/public/thumbs/' . $media['file_name'];
 }
 
