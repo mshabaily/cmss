@@ -4,7 +4,7 @@ use CMSS\Database;
 
 function cmss_asset($path): string
 {
-    return site_url() . '/assets/' . $path;
+    return site_url() . '/public/assets/' . $path;
 }
 
 function cmss_partial($path): string
